@@ -84,14 +84,22 @@ main > .tagline {
 	position: relative;
 	max-width: 30%;
 	margin: 0 1%;
+	flex-grow: 1;
+	box-sizing: border-box; 
 }
 
 .image-box img {
 	width: 100%;
 	height: auto;
+	max-width: 100%; 
 }
 
 .image-title {
+	font-weight: bold;
+	text-align: center; /* Center the title text */
+}
+
+.image-subtitle {
 	font-weight: bold;
 	text-align: center; /* Center the title text */
 }
