@@ -73,3 +73,46 @@ main > .tagline {
 	width: 2.65rem;
 	height: 2.65rem;
 }
+
+.image-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+.image-box {
+	position: relative;
+	max-width: 30%;
+	margin: 0 1%;
+}
+
+.image-box img {
+	width: 100%;
+	height: auto;
+}
+
+.image-title {
+	font-weight: bold;
+	text-align: center; /* Center the title text */
+}
+
+/* Style the link and its states */
+a {
+	color: #ffffff; /* Set the desired color */
+	text-decoration: none; /* Remove underline (if needed) */
+}
+
+/* Style visited links */
+a:visited {
+	color: #ffffff; /* Set the same color for visited links */
+}
+
+/* Style links on hover */
+a:hover {
+	color: #ffffff; /* Set the same color on hover */
+}
+
+/* Style active links (when clicked) */
+a:active {
+	color: #ffffff; /* Set the same color for active links */
+}
