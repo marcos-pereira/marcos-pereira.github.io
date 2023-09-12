@@ -97,11 +97,67 @@ main > .tagline {
 .image-title {
 	font-weight: bold;
 	text-align: center; /* Center the title text */
+	margin-bottom: 5px;
 }
 
 .image-subtitle {
 	font-weight: bold;
 	text-align: center; /* Center the title text */
+	margin-top: 5px; /* Add some top margin for spacing */
+}
+
+.image-link {
+	display: inline-block;
+	position: relative;
+	width: 100%; /* Set the width and height of the container */
+	height: auto;
+	text-align: center;
+	line-height: 50%; /* Vertically center the text/link */
+	text-decoration: none;
+}
+
+/* Define a class for the image */
+.image-link img {
+	max-width: 100%;
+	height: auto;
+	transition: opacity 0.3s ease; /* Add a smooth transition effect for opacity */
+}
+
+/* Define a hover effect */
+.image-link:hover img {
+	opacity: 0; /* Hide the original image on hover */
+}
+
+.image-link span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.5);
+	opacity: 0;
+	transition: opacity 0.3s ease;
+}
+
+.image-link:hover span {
+	opacity: 1;
+}
+
+/* Define a class for the hover image */
+.image-link .hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0; /* Initially, hide the hover image */
+    transition: opacity 0.3s ease; /* Add a smooth transition effect for opacity */
+}
+
+/* Show the hover image on hover */
+.image-link:hover .hover-image {
+    opacity: 1;
 }
 
 /* Style the link and its states */
@@ -117,10 +173,23 @@ a:visited {
 
 /* Style links on hover */
 a:hover {
-	color: #ffffff; /* Set the same color on hover */
+	color: #93ff93; /* Set the same color on hover */
 }
 
 /* Style active links (when clicked) */
 a:active {
 	color: #ffffff; /* Set the same color for active links */
+}
+
+.p-normal {
+	font-weight: normal;
+	font-size:large;
+}
+  
+p.thick {
+font-weight: bold;
+}
+
+p.thicker {
+font-weight: 900;
 }
