@@ -193,3 +193,33 @@ font-weight: bold;
 p.thicker {
 font-weight: 900;
 }
+
+.intro-text {
+	font-weight: bold;
+	font-size:larger;
+}
+
+/* .intro-paragraph {
+	
+	position: fixed;
+	left: 50%;
+	transform: translateX(-50%);
+	flex-wrap: wrap;
+	max-width: 50%;
+} */
+
+.centered-container {
+	font-weight: normal;
+	font-size: larger;
+    position: relative;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	text-align: center;
+}
+
+.centered-element {
+    width: 50%; /* Adjust the width as needed */
+}
