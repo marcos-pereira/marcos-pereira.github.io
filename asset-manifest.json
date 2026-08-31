@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "./static/css/main.66ce2248.chunk.css",
-    "main.js": "./static/js/main.9ee9d6d8.chunk.js",
-    "main.js.map": "./static/js/main.9ee9d6d8.chunk.js.map",
+    "main.js": "./static/js/main.6078a487.chunk.js",
+    "main.js.map": "./static/js/main.6078a487.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.fe17f9b5.js",
     "runtime-main.js.map": "./static/js/runtime-main.fe17f9b5.js.map",
-    "static/js/2.fec56518.chunk.js": "./static/js/2.fec56518.chunk.js",
-    "static/js/2.fec56518.chunk.js.map": "./static/js/2.fec56518.chunk.js.map",
+    "static/js/2.2348461f.chunk.js": "./static/js/2.2348461f.chunk.js",
+    "static/js/2.2348461f.chunk.js.map": "./static/js/2.2348461f.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.11e394bde071ea4054f8d6317ca67f2a.js": "./precache-manifest.11e394bde071ea4054f8d6317ca67f2a.js",
+    "precache-manifest.dbc15734399909a5517d1735e18ced8f.js": "./precache-manifest.dbc15734399909a5517d1735e18ced8f.js",
     "service-worker.js": "./service-worker.js",
     "static/css/main.66ce2248.chunk.css.map": "./static/css/main.66ce2248.chunk.css.map",
     "static/media/index.css": "./static/media/Montserrat-Regular.ee653992.ttf",
@@ -62,12 +62,13 @@
     "static/media/talksCardBackAlt.svg": "./static/media/talksCardBackAlt.3fa54242.svg",
     "static/media/tiktok_logo.png": "./static/media/tiktok_logo.0993e324.png",
     "static/media/ui_ux_design.svg": "./static/media/ui_ux_design.d6363089.svg",
-    "static/media/view_videos.png": "./static/media/view_videos.b213cd41.png"
+    "static/media/view_videos.png": "./static/media/view_videos.b213cd41.png",
+    "static/media/vrptl-tpmc-full-video-v3_1m06-1m30_4.5x.gif": "./static/media/vrptl-tpmc-full-video-v3_1m06-1m30_4.5x.f5c413cc.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.fe17f9b5.js",
-    "static/js/2.fec56518.chunk.js",
+    "static/js/2.2348461f.chunk.js",
     "static/css/main.66ce2248.chunk.css",
-    "static/js/main.9ee9d6d8.chunk.js"
+    "static/js/main.6078a487.chunk.js"
   ]
 }
